@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sponsors | Danes Robotics</title>
+    <meta name="description" content="Sponsor Danes Robotics, FRC Team 11174, and see current partners and support tiers.">
+    <link rel="icon" href="images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body data-page="sponsors">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div id="site-header"></div>
+    <main id="main">
+      <header class="page-hero">
+        <div class="wrap">
+          <p class="section-kicker">Support the team</p>
+          <h1>Sponsors</h1>
+          <p class="lede">We currently work with <strong id="sponsor-count">0</strong> sponsors. That number is counted from data/sponsors.js, not typed by hand.</p>
+          <p><a class="btn-ghost" href="mailto:denmarkfrc@gmail.com">Talk with us <span aria-hidden="true">→</span></a></p>
+        </div>
+      </header>
+      <section class="section">
+        <div class="wrap">
+          <div class="section-head" data-reveal>
+            <h2 class="section-heading">Current partners</h2>
+            <hr class="accent-rule">
+            <p class="lede">TODO: add logo files in images/sponsors/ and set each logo path in data/sponsors.js.</p>
+          </div>
+          <div class="grid cols-4" id="sponsors-grid" data-reveal></div>
+        </div>
+      </section>
+      <section class="section section-muted">
+        <div class="wrap">
+          <div class="section-head" data-reveal>
+            <h2 class="section-heading">Sponsorship tiers</h2>
+            <hr class="accent-rule">
+            <p class="lede">Benefits are listed in data/tiers.js so they can be updated without editing this page.</p>
+          </div>
+          <div class="grid cols-4" id="tiers-grid" data-reveal></div>
+        </div>
+      </section>
+    </main>
+    <div id="site-footer"></div>
+    <script src="data/site.js"></script>
+    <script src="data/sponsors.js"></script>
+    <script src="data/tiers.js"></script>
+    <script src="data/events.js"></script>
+    <script src="data/media.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calendar | Danes Robotics</title>
+    <meta name="description" content="Competition calendar for Danes Robotics, FRC Team 11174.">
+    <link rel="icon" href="images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body data-page="calendar">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div id="site-header"></div>
+    <main id="main">
+      <header class="page-hero">
+        <div class="wrap">
+          <p class="section-kicker">Schedule</p>
+          <h1>Calendar</h1>
+          <p class="lede">Events are stored in data/events.js. Mark a new event with upcoming: true when dates are announced.</p>
+        </div>
+      </header>
+      <section class="section">
+        <div class="wrap">
+          <div class="grid cols-3" id="events-grid" data-reveal></div>
+        </div>
+      </section>
+    </main>
+    <div id="site-footer"></div>
+    <script src="data/site.js"></script>
+    <script src="data/sponsors.js"></script>
+    <script src="data/tiers.js"></script>
+    <script src="data/events.js"></script>
+    <script src="data/media.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

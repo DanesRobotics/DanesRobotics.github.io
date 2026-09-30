@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Danes Robotics | FRC Team 11174</title>
+    <meta name="description" content="Official site of Danes Robotics, FIRST Robotics Competition Team 11174 from Denmark High School in Alpharetta, Georgia.">
+    <link rel="icon" href="images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body data-page="home">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div id="site-header"></div>
+
+    <main id="main">
+      <section class="hero" aria-label="Introduction">
+        <div class="wrap">
+          <div id="hero-content"></div>
+          <p class="hero-scroll">Scroll</p>
+        </div>
+      </section>
+
+      <div class="wrap">
+        <div class="stats" data-reveal>
+          <div class="stat-card">
+            <strong id="stat-events" data-count>0</strong>
+            <span>Events in our rookie season</span>
+          </div>
+          <div class="stat-card">
+            <strong id="stat-awards" data-count>0</strong>
+            <span>Rookie-season honors</span>
+          </div>
+          <div class="stat-card">
+            <strong id="stat-views" data-count>0</strong>
+            <span>Social views, first season</span>
+          </div>
+          <div class="stat-card">
+            <strong id="stat-sponsors" data-count>0</strong>
+            <span>Current sponsors</span>
+          </div>
+        </div>
+      </div>
+
+      <section class="section" id="about">
+        <div class="wrap" data-reveal>
+          <p class="section-kicker">Our story</p>
+          <h2 class="section-heading">Built from scratch</h2>
+          <hr class="accent-rule">
+          <p class="lede" id="story-short"></p>
+          <p><a class="btn-text" href="about.html">Read the full story <span aria-hidden="true">→</span></a></p>
+        </div>
+      </section>
+
+      <section class="section section-navy" id="season">
+        <div class="wrap">
+          <div class="section-head" data-reveal>
+            <p class="section-kicker">2026 · REBUILT</p>
+            <h2 class="section-heading">Rookie season highlights</h2>
+            <hr class="accent-rule">
+            <p class="lede">We entered FIRST Robotics with no existing program. In one season we competed across the Peachtree District.</p>
+          </div>
+          <div class="grid cols-3" id="home-events" data-reveal></div>
+        </div>
+      </section>
+
+      <section class="section" id="subteams">
+        <div class="wrap">
+          <div class="section-head" data-reveal>
+            <p class="section-kicker">How we work</p>
+            <h2 class="section-heading">Sub-teams</h2>
+            <hr class="accent-rule">
+          </div>
+          <div class="grid cols-4" id="subteams-grid" data-reveal></div>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="partners">
+        <div class="wrap">
+          <div class="section-head" data-reveal>
+            <p class="section-kicker">Partners</p>
+            <h2 class="section-heading">Thank you to our sponsors</h2>
+            <hr class="accent-rule">
+            <p class="lede">Local and national partners make the robot, the shop, and travel possible. Logos will be added here as files are placed in images/sponsors/.</p>
+          </div>
+          <div class="grid cols-4" id="home-sponsors" data-reveal></div>
+          <p class="section-cta" data-reveal><a class="btn-ghost" href="sponsors.html">See sponsorship tiers <span aria-hidden="true">→</span></a></p>
+        </div>
+      </section>
+    </main>
+
+    <div id="site-footer"></div>
+    <script src="data/site.js"></script>
+    <script src="data/sponsors.js"></script>
+    <script src="data/tiers.js"></script>
+    <script src="data/events.js"></script>
+    <script src="data/media.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
